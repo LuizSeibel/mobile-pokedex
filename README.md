@@ -5,13 +5,13 @@
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Gluestack UI](https://img.shields.io/badge/gluestack_ui-%23000000.svg?style=for-the-badge&logo=gluestack&logoColor=white)
 
-A modern, clean Pokedex application built to explore **React Native**, **Expo Router**, and **Gluestack UI**. This app fetches real-time data from the [PokeAPI](https://pokeapi.co/) and features a dynamic UI that adapts to Pokemon types.
+A Pokedex application built to explore **React Native**, **Expo Router**, and **Gluestack UI**. This app fetches real-time data from the [PokeAPI](https://pokeapi.co/) and features a dynamic UI that adapts to Pokemon types.
 
 ## Screenshots
 
 <div style="display: flex; flex-direction: row; gap: 10px;">
-  <img src="./assets/screenshot-home.png" alt="Home Screen" width="200" />
-  <img src="./assets/screenshot-details.png" alt="Details Screen" width="200" />
+  <img src="./assets/images/screenshot-home.png" alt="Home Screen" width="200" />
+  <img src="./assets/images/screenshot-details.png" alt="Details Screen" width="200" />
 </div>
 
 ## Get Started
@@ -20,3 +20,4 @@ A modern, clean Pokedex application built to explore **React Native**, **Expo Ro
 
    ```bash
    npm install
+   ```
