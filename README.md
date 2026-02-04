@@ -1,4 +1,4 @@
-# 📱 Pokedex Mobile
+# Pokedex Mobile
 
 ![Expo](https://img.shields.io/badge/expo-1C1E21?style=for-the-badge&logo=expo&logoColor=white)
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -7,14 +7,14 @@
 
 A modern, clean Pokedex application built to explore **React Native**, **Expo Router**, and **Gluestack UI**. This app fetches real-time data from the [PokeAPI](https://pokeapi.co/) and features a dynamic UI that adapts to Pokemon types.
 
-## 📸 Screenshots
+## Screenshots
 
 <div style="display: flex; flex-direction: row; gap: 10px;">
   <img src="./assets/screenshot-home.png" alt="Home Screen" width="200" />
   <img src="./assets/screenshot-details.png" alt="Details Screen" width="200" />
 </div>
 
-## 🚀 Get Started
+## Get Started
 
 1. **Install dependencies**
 
