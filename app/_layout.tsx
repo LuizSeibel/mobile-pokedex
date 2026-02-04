@@ -1,24 +1,33 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated';
+import { Stack } from "expo-router";
 
-import { useColorScheme } from '@/hooks/use-color-scheme';
-
-export const unstable_settings = {
-  anchor: '(tabs)',
-};
+import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
+import '@/global.css';
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
-
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+    
+    <GluestackUIProvider mode="dark">
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+      <Stack.Screen
+        name="index"
+        options={{
+          title: "Home",
+        }}
+      />
+
+      <Stack.Screen
+        name="details"
+        options={{
+          title: "Details",
+          headerBackButtonDisplayMode: "minimal",
+          presentation: "formSheet",
+          sheetAllowedDetents: [0.63, 0.9],
+          sheetGrabberVisible: true,
+          //headerShown: false,
+        }}
+      />
+    </Stack>
+    </GluestackUIProvider>
+  
   );
 }
